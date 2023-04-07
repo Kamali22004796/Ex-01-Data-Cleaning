@@ -19,4 +19,33 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE
+```
+import pandas as pd
+df=pd.read_csv("/content/Loan_data.csv")
+print(df)
+df.head(10)
+df.info()
+df.isnull()
+df.isnull().sum()
+df['Loan_ID']=df['Loan_ID'].fillna(df['Dependents'].mode()[0])
+df['Dependents']=df['Dependents'].fillna(df['Dependents'].mode()[0])
+df['Education']=df['Education'].fillna(df['Dependents'].mode()[0])
+df.head()
+df['ApplicantIncome']=df['ApplicantIncome'].fillna(df['ApplicantIncome'].mean())
+df['Loan_Amount_Term']=df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].mean())
+df.head()
+df['Credit_History']=df['Credit_History'].fillna(df['Credit_History'].median())
+df.head()
+df.info()
+df.isnull().sum()
+```
 # OUPUT
+# DATA
+
+![Screenshot 2023-04-07 193413](https://user-images.githubusercontent.com/120567837/230622104-0c3d5927-d5af-465f-86bb-025edb9f1316.png)
+
+![Screenshot 2023-04-07 193547](https://user-images.githubusercontent.com/120567837/230622292-63afd727-9447-467e-8835-5e06279a3004.png)
+
+# NON NULL BEFORE
+
+
