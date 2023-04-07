@@ -72,3 +72,5 @@ df.isnull().sum()
 
 ![Screenshot 2023-04-07 215034](https://user-images.githubusercontent.com/120567837/230642765-5f36c8c6-0c2a-4f3b-b95a-0b96aedf5709.png)
 
+# RESULT
+Thus, the given data is read, cleansed and the cleansed data is saved into the file.
