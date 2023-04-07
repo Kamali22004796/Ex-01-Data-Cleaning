@@ -48,4 +48,27 @@ df.isnull().sum()
 
 # NON NULL BEFORE
 
+![Screenshot 2023-04-07 205217](https://user-images.githubusercontent.com/120567837/230640141-61f9d0b8-f020-4b6a-ae6f-bbba1a58fb49.png)
+
+![Screenshot 2023-04-07 213500](https://user-images.githubusercontent.com/120567837/230640475-fa081f6b-4fb9-474d-afcc-97712056e10d.png)
+
+![Screenshot 2023-04-07 213723](https://user-images.githubusercontent.com/120567837/230640835-6aac232e-e20d-497c-be94-ef7ed2560949.png)
+
+# MODE
+
+![Screenshot 2023-04-07 213930](https://user-images.githubusercontent.com/120567837/230641136-b819951b-0188-4fd4-af36-d7c22b74e5e6.png)
+
+# MEAN
+
+![Screenshot 2023-04-07 214229](https://user-images.githubusercontent.com/120567837/230641552-737d9fdb-0387-4fe6-8410-0cc094bccb28.png)
+
+# MEDIAN
+
+![Screenshot 2023-04-07 214427](https://user-images.githubusercontent.com/120567837/230641834-5ee89c8d-fbb1-4284-a94f-d94dbdf281b9.png)
+
+# NON NULL AFTER
+
+![Screenshot 2023-04-07 214605](https://user-images.githubusercontent.com/120567837/230642095-856dc5b4-4a83-4f70-8a5d-70fa0d6b4567.png)
+
+![Screenshot 2023-04-07 215034](https://user-images.githubusercontent.com/120567837/230642765-5f36c8c6-0c2a-4f3b-b95a-0b96aedf5709.png)
 
